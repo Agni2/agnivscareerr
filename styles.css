@@ -1,0 +1,242 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #131212;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 18px;
+    color: rgb(9, 206, 9);
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #464242;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e7e1e1;
+    margin: 0 20px;
+    font-size: 16px;
+}
+
+section {
+    padding: 40px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #f7f0f0;
+}
+
+h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #f7f0f0;
+    text-align:left;
+}
+
+h5 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #f7f0f0;
+    
+}
+
+h6 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #f7f0f0;
+    text-align:left;
+}
+
+h7 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #f7f0f0;
+    
+}
+
+h8 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #f7f0f0;
+}
+
+h9 {
+    font-size: 27px;
+    margin-bottom: 20px;
+    color: #f7f0f0;
+    text-align:auto;
+}
+
+p {
+    font-size: 28px;
+    color: rgb(250, 255, 250);
+    text-align:center;
+}  
+
+ 
+* Button styling */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077b5; /* Change to your preferred background color */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px; /* Adjust the border radius for rounded corners */
+    cursor: pointer;
+}
+
+/* Hover effect */
+.button:hover {
+    background-color: #fbfdfd; /* Change to your preferred hover color */
+}
+
+
+
+/* Styling links */
+a {
+    color: #030303;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Customize the Contact Me section */
+#contact {
+    background-color: #000000;
+    color: #fff;
+    text-align:left;
+    padding: 40px;
+}
+#About {
+    background-color: #000000;
+    color: #fff;
+    text-align:left;
+    padding: 40px;
+}
+
+/* Basic rounded button */
+.rounded-button {
+    border-radius: 22px; /* Adjust the value to control the roundness */
+    padding: 10px 20px; /* Add padding to create space inside the button */
+    background-color: #0077b5; /* Button background color */
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove default link underline */
+    display: inline-block; /* Make the button an inline-block element */
+    text-align: center; /* Center the text horizontally */
+    font-weight:bold;
+    font-size:16px;
+}
+
+/* Rounded button on hover (optional) */
+.rounded-button:hover {
+    background-color: #005e8d; /* Change the background color on hover */
+    cursor: pointer; /* Change the cursor on hover to indicate interactivity */
+}
+
+/* Your existing CSS */
+
+/* Adjust the image size */
+.about-content img {
+    width: 230px; /* Adjust the image width as needed */
+    height: auto;
+    float: left; /* Float the image to the left */
+    margin-right: 20px; /* Add some spacing between the image and text */
+}
+
+/* Container for the text */
+.text-container {
+    text-align: right; /* Align the text to the right */
+}
+
+.side-by-side-bullets {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .side-by-side-bullets li {
+    display: inline-block; /* Display list items inline */
+    margin-right: 150px; /* Add space between list items */
+  }
+  
+
+  .line-container {
+    display: flex; /* Use flexbox to create a row with two elements */
+    align-items: center; /* Vertically center the elements */
+  }
+  
+  .topic {
+    flex: 1; /* Allow the topic to expand and take available space */
+    margin: 0; /* Reset default margins for the topic */
+  }
+  
+  .separator {
+    width: 2px; /* Adjust the line width as needed */
+    height: 40px; /* Adjust the line height as needed */
+    background-color: #fff3f3; /* Set the line color */
+    margin: 0 10px; /* Add space between the line and the topic */
+  }
+  
+  /* Style for the unclickable icons */
+.unclickable-icon {
+    display: flex;
+    align-items: center;
+    pointer-events: none; /* Make it unclickable */
+    opacity: 0.5; /* Optionally reduce opacity for a disabled look */
+    margin: 10px 0; /* Add some spacing between icons */
+}
+
+.unclickable-icon i {
+    font-size: 28px; /* Adjust the icon size as needed */
+    margin-right: 10px; /* Add spacing between icon and text */
+}
+
+/* Reset pointer-events and opacity for the text so that it's clickable and not dimmed */
+.unclickable-icon span {
+    pointer-events: auto;
+    opacity: 5;
+}
+
+.tab {
+    text-decoration: none; /* Remove the default underline for links */
+    border-bottom: 2px solid transparent; /* Add a transparent line to each tab */
+}
+
+.tab.active {
+    border-color: #00b53c; /* Change to your desired line color */
+}
+
+.special-font {
+    font-family: 'Nosifer', cursive; /* Change 'YourSpecialFont' to your desired font */
+    font-weight: bold; /* Adjust font-weight as needed */
+    font-size: 18px; /* Adjust font size as needed */
+}
